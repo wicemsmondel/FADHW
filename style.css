@@ -1,0 +1,144 @@
+#navBar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    padding: 0; margin: 0;
+}
+#navBar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+#navBar a:hover {
+    background-color: white;
+    color: black;
+}
+.active{
+    margin-right: 400px;
+    font-family: 'Luckiest Guy', cursive;  
+}
+ 
+#navBar a.active {
+    background-color: rgb(124, 0, 124);
+    color: white;
+}
+
+.reste{
+    margin-right: 100px;
+}
+.item{
+    width: 100%;
+}
+#presentation{
+    background-color:rgb(124, 0, 124) ;
+}
+#presentation h1{
+    font-family: 'Luckiest Guy', cursive; 
+    text-align: center;
+    font-size: 60px;
+    color: black;
+}
+#avant-premiere h1{
+    font-family: 'Luckiest Guy', cursive; 
+    text-align: center;
+    font-size: 60px;
+}
+#presentation p{
+    text-align: center;
+    font-size: 30px; 
+    color: white;
+}
+
+table p{
+    text-align: center;
+}
+#fiche1, #fiche2{
+   display: inline-block;
+   margin-top: 40px;
+}
+#fiche1{
+    margin-left: 90px;
+    margin-right: 220px;
+}
+#fiches{
+    margin-bottom: 30px;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.644);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+#fiche1 {
+    position: relative;
+    width: auto;
+  }
+#fiche1:hover .overlay {
+    height: 100%;
+  }
+#fiche2 {
+    position: relative;
+    width: auto;
+  }
+#fiche2:hover .overlay {
+    height: 100%;
+  }
+.overlay a{
+    background-color: rgb(124, 0, 124);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+.overlay a:hover{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+#cord iframe{
+    float: right;
+}
+
+
+#footer{
+    margin-top: 500px;
+    background-color: rgb(124, 0, 124);
+    height: 100px;
+}
+#footer h1{
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+#copyright{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+

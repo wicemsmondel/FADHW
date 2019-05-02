@@ -4,9 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet"> 
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>FADH</title>
 </head>
 <body>
     
-</body>
+    <!-- navBar-->
+    <nav id="navBar" class="navbar navbar-inverse navbar-fixed-top">
+        <a class="active" href="index.html">FADH</a>
+        <a class="reste" href="index.html">Home</a>
+        <a class="reste" href="#">Movies</a>
+        <a class="reste" href="#">Contact</a>
+      </nav>
+
+    <!-- caroussel -->
+    <div id="carousel-appdev" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-appdev" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-appdev" data-slide-to="1"></li>
+          <li data-target="#carousel-appdev" data-slide-to="2"></li>
+          <li data-target="#carousel-appdev" data-slide-to="3"></li>
+        </ol>
+      
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="images/accueil1.jpg" alt="accueil1">
+          </div>
+          <div class="item">
+            <img src="images/accueil2.jpg" alt="accueil2">
+          </div>
+          <div class="item">
+            <img src="images/accueil3.jpg" alt="accueil3">
+          </div>
+          <div class="item">
+            <img src="images/accueil4.jpg" alt="accueil4">
+          </div>
+          
+        </div>
+      
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-appdev" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-appdev" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <!-- Présentation -->
+      <div id="presentation">
+        <h1>Presentation Of The Cinema</h1>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+      </div>
+
+      <!-- Avant-Premiere -->
+      <div id="avant-premiere">
+        <h1>Preview</h1>
+        <div id="fiches">
+        <form id="fiche1">
+            <img src="images/avengers.jpg" class="image">
+            <div class="overlay">
+                    <a class="text">Reserve</a>
+            </div>
+        </form>
+        <form id="fiche2">
+                <img src="images/LaChant.jpg" class="image">
+                <div class="overlay">
+                        <a class="text">Reserve</a>
+                </div>
+            </form>
+        </div>
+      </div>
+      
+      <!--Plan -->
+      <div id="cord"> 
+        <h3>7 Rue du Chemin aux Bœufs</h3> 
+        <h3>78990 Élancourt</h3> 
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d519.6230956362373!2d1.9479818292090643!3d48.76681698266082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6812acc8062d1%3A0x14805723f8f71b7e!2sRadio+SENSATIONS+98.4+FM!5e1!3m2!1sfr!2sfr!4v1556726616516!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>      
+      </div>
+
+      <!-- Footer -->
+      <div id="footer">
+          <h1>FADH</h1>
+          <p id="copyright">Copyright © 2019. Tous droits réservés</p>
+      </div>
+             
+
+                         
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+      <script src="script.js"></script>
 </html>
